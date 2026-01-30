@@ -7,11 +7,11 @@ Status: CRITICAL_ERROR_DETECTED
 [0.0145] ERROR: Failed to allocate bridge-subsystem-id 0x4421
 [0.0146] DUMPING STACK FRAME AT ADDR 0xFF02A11B:
 [DEBUG] TRACE_ID_START
-0x0000: 36 5f eb ef ba 5c 3e f9 63 a8 cb d1 63 08 65 12
-0x0010: 88 5d 91 88 4d 12 76 c3 0e dd 54 f6 1a 04 1a 72
-0x0020: f3 3c f0 db 72 a8 b5 a4 4a 4b cf ee 8e 22 33 3e
-0x0030: 46 61 66 30 1f 59 2d d8 ff c6 2a f7 aa c1 1e 13
-0x0040: 88 0c ca 56 aa 14 64 e2
+0x0000: 22 54 29 69 6b 54 ae 20 43 16 5e 6c 3c 61 04 00
+0x0010: 6f 8e 35 ee d9 b3 b6 ed 4a e0 4b 4f b7 25 1a bf
+0x0020: bc 15 2d ac 97 31 63 2f ca ee 16 3c 97 03 64 37
+0x0030: a0 95 48 5a 0d 7a 97 1c f4 fe e7 fa b8 c4 8a 89
+0x0040: 2d 41 47 e1 74 28 2c a7
 [DEBUG] TRACE_ID_END
 
 [0.0521] systemd[1]: Segfault at memory address 0x3d64bea7
