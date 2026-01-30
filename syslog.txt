@@ -16,6 +16,6 @@ Status: CRITICAL_ERROR_DETECTED
 
 [0.0521] systemd[1]: Segfault at memory address 0x3d64bea7
 [0.0522] KERNEL_PANIC: Manual intervention required.
-[WARN]  Check secondary master_node_id: [MontSec_3d64bea7]
+[WARN]  Check secondary master_node_id: [MontSec_9ffffc84]
 [0.0523] System halting in 5 seconds...
 === END DIAGNOSTIC REPORT ===
