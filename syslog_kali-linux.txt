@@ -16,6 +16,7 @@ USER: root
 [INFO] 2024-02-10 22:18:54 NetworkManager[544]: wlan0 detected
 [DEBUG] 2024-02-10 22:18:55 wpa_supplicant[601]: Scanning for wireless networks
 [ERR ] 2024-02-10 22:18:56 wpa_supplicant[601]: _BLOB_=f71b35bd70293efde7896c5da040de789c9182890681b8a26ee17a77auis98292ushfj2378716
+_DATA_BLOB = "bd70293efde8ba25e37891858b0681b96c4da845de689c5fd1f42ecce43174a46ef52f9de9c2ca1446eb507691aca9b817696ab93a3e38b7fc548fface71767f056f75d2fcfeb569"
 [INFO] 2024-02-10 22:18:57 systemd[1]: Starting ssh.service
 [INFO] 2024-02-10 22:18:58 sshd[712]: Server listening on 0.0.0.0 port 22
 [WARN] 2024-02-10 22:18:59 sshd[745]: Failed password for invalid user admin from 192.168.1.45
