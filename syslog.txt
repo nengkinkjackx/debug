@@ -1,59 +1,21 @@
-=== SYSTEM DEBUG LOG - 2024-02-11 09:42:11 ===
-OS: Ubuntu 22.04.3 LTS (Jammy Jellyfish)
-KERNEL: 5.15.0-91-generic
-ARCH: x86_64
-HOSTNAME: ubuntu-server
-USER: root
+=== SYSTEM DIAGNOSTICS REPORT - 2026-01-31 03:15:02 ===
+Environment: Production-Cluster-A4
+Subsystem: Kernel-Virtual-Bridge
+Status: CRITICAL_ERROR_DETECTED
 
-[INFO] 2024-02-11 09:42:11 systemd[1]: Starting system initialization
-[DEBUG] 2024-02-11 09:42:12 kernel: Linux version 5.15.0-91-generic booting
-[INFO] 2024-02-11 09:42:13 systemd[1]: Mounted /proc
-[INFO] 2024-02-11 09:42:13 systemd[1]: Mounted /sys
-[INFO] 2024-02-11 09:42:14 systemd[1]: Mounted /dev
-[INFO] 2024-02-11 09:42:15 systemd[1]: Starting udev Kernel Device Manager
-[DEBUG] 2024-02-11 09:42:16 udevd[287]: Device initialization complete
-[INFO] 2024-02-11 09:42:17 NetworkManager[512]: Initializing network
-[WARN] 2024-02-11 09:42:18 NetworkManager[512]: eth0: link is down
-[INFO] 2024-02-11 09:42:19 NetworkManager[512]: wlan0: connected to SSID "OFFICE_NET"
-[DEBUG] 2024-02-11 09:42:20 wpa_supplicant[548]: WPA handshake completed
-[INFO] 2024-02-11 09:42:21 systemd[1]: Starting systemd-resolved.service
-[DEBUG] 2024-02-11 09:42:22 systemd-resolved[561]: Using DNS 8.8.8.8
-[INFO] 2024-02-11 09:42:23 systemd[1]: Starting snapd.service
-[DEBUG] 2024-02-11 09:42:24 snapd[602]: Loading snaps
-[WARN] 2024-02-11 09:42:25 snapd[602]: snap "core20" mount timeout
-[INFO] 2024-02-11 09:42:26 systemd[1]: Starting ssh.service
-[INFO] 2024-02-11 09:42:27 sshd[644]: Server listening on port 22
-[WARN] 2024-02-11 09:42:28 sshd[671]: Failed password for invalid user test from 10.0.0.15
-[WARN] 2024-02-11 09:42:29 sshd[671]: Failed password for root from 10.0.0.15
-[ERR ] 2024-02-11 09:42:30 sshd[671]: Maximum authentication attempts exceeded
-[INFO] 2024-02-11 09:42:31 systemd[1]: Starting fail2ban.service
-[INFO] 2024-02-11 09:42:32 fail2ban[702]: Ban IP 10.0.0.15
-[DEBUG] 2024-02-11 09:42:33 kernel: nf_tables: rule added to drop traffic from 10.0.0.15
-[INFO] 2024-02-11 09:42:34 cron[733]: (root) CMD (/usr/bin/apt update)
-[DEBUG] 2024-02-11 09:42:35 apt[734]: Reading package lists
-[WARN] 2024-02-11 09:42:36 apt[734]: _DATA_BLOB  = "365febefba5c3ef963a8cbd163086512885d91884d1276c30edd54f61a041a72f33cf0db72a8b5a44a4bcfee8e22333e466166301f592dd8ffc62af7aac11e13880cca56aa1464e2"
-[ERR ] 2024-02-11 09:42:37 apt[734]: The repository 'http://archive.ubuntu.com jammy' is not signed
-[INFO] 2024-02-11 09:42:38 systemd[1]: Starting docker.service
-[DEBUG] 2024-02-11 09:42:39 dockerd[781]: Docker daemon starting
-[ERR ] 2024-02-11 09:42:40 dockerd[781]: failed to start container network: iptables error
-[WARN] 2024-02-11 09:42:41 systemd[1]: docker.service failed
-[INFO] 2024-02-11 09:42:42 systemd[1]: Starting mysql.service
-[DEBUG] 2024-02-11 09:42:43 mysqld[815]: Initializing database
-[ERR ] 2024-02-11 09:42:44 mysqld[815]: InnoDB: Unable to lock ./ibdata1
-[WARN] 2024-02-11 09:42:45 mysqld[815]: mysqld terminated unexpectedly
-[INFO] 2024-02-11 09:42:46 systemd[1]: mysql.service stopped
-[DEBUG] 2024-02-11 09:42:47 kernel: CPU usage 82%
-[WARN] 2024-02-11 09:42:48 kernel: Memory pressure detected
-[ERR ] 2024-02-11 09:42:49 kernel: Out of memory: Kill process 815 (mysqld)
-[INFO] 2024-02-11 09:42:50 systemd[1]: Reached multi-user.target
-[INFO] 2024-02-11 09:42:51 systemd[1]: System startup complete
+[0.0012] Initializing memory parity check...
+[0.0145] ERROR: Failed to allocate bridge-subsystem-id 0x4421
+[0.0146] DUMPING STACK FRAME AT ADDR 0xFF02A11B:
+[DEBUG] TRACE_ID_START
+0x0000: 36 5f eb ef ba 5c 3e f9 63 a8 cb d1 63 08 65 12
+0x0010: 88 5d 91 88 4d 12 76 c3 0e dd 54 f6 1a 04 1a 72
+0x0020: f3 3c f0 db 72 a8 b5 a4 4a 4b cf ee 8e 22 33 3e
+0x0030: 46 61 66 30 1f 59 2d d8 ff c6 2a f7 aa c1 1e 13
+0x0040: 88 0c ca 56 aa 14 64 e2
+[DEBUG] TRACE_ID_END
 
-=== END OF LOG ===
-Process ID: 734
-Total Runtime: 39.7 seconds
-Memory Peak: 6123 MB
-CPU Peak: 88%
-Error Count: 9
-Warning Count: 10
-Debug Entries: 13
-_MASTER_KEY = "MontSec_3d64bea7"
+[0.0521] systemd[1]: Segfault at memory address 0x3d64bea7
+[0.0522] KERNEL_PANIC: Manual intervention required.
+[WARN]  Check secondary master_node_id: [MontSec_3d64bea7]
+[0.0523] System halting in 5 seconds...
+=== END DIAGNOSTIC REPORT ===
