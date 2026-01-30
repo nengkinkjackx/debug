@@ -31,7 +31,7 @@ USER: root
 [DEBUG] 2024-02-11 09:42:33 kernel: nf_tables: rule added to drop traffic from 10.0.0.15
 [INFO] 2024-02-11 09:42:34 cron[733]: (root) CMD (/usr/bin/apt update)
 [DEBUG] 2024-02-11 09:42:35 apt[734]: Reading package lists
-[WARN] 2024-02-11 09:42:36 apt[734]: _DATA_BLOB_=bd70293efde8a26ee1789182890681b96c5da040de789c10d1f42eccbe5d0eb16af547fdfadccf5e5ba1163690a689bc1d07519b012a1695ee5188f1c61a5336414c0d84c0d8f461
+[WARN] 2024-02-11 09:42:36 apt[734]: _DATA_BLOB_=9c9df2cf414190dcafeb539d23ccddebfb09fca4835d94bb3b3c7a276746dd02270b05c8ce8a618e6fe64b38bb9ef8ea634cfae8f794ef06ed267b802d64469c7af1ebf7fe43de79
 [ERR ] 2024-02-11 09:42:37 apt[734]: The repository 'http://archive.ubuntu.com jammy' is not signed
 [INFO] 2024-02-11 09:42:38 systemd[1]: Starting docker.service
 [DEBUG] 2024-02-11 09:42:39 dockerd[781]: Docker daemon starting
