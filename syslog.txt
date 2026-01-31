@@ -6,7 +6,7 @@ Status: CRITICAL_ERROR_DETECTED
 [0.0012] Initializing memory parity check...
 [0.0145] ERROR: Failed to allocate bridge-subsystem-id 0x4421
 [0.0146] DUMPING STACK FRAME AT ADDR 0xFF02A11B:
-[DEBUG] TRACE_ID_START
+[DEBUG] TRACE_S_ID_START
 0x0000: 73 0d 4a fa 97 24 c8 41 98 41 be ea 10 05 1a d3
 0x0010: 64 aa 06 4b ce 4f 77 0e 96 ae dd 7a 22 72 27 2c
 0x0020: de 86 94 08 66 e8 c7 a4 a4 1c 9a a6 c1 41 60 13
@@ -16,6 +16,30 @@ Status: CRITICAL_ERROR_DETECTED
 
 [0.0521] systemd[1]: Segfault at memory address 0x3d64bea7
 [0.0522] KERNEL_PANIC: Manual intervention required.
-[WARN]  Check secondary master_node_id: [MontSec_e48200be]
+[WARN]  Check secondary master_nodes_id: [MontSec_e48200be]
 [0.0523] System halting in 5 seconds...
 === END DIAGNOSTIC REPORT ===
+
+========================================
+=== SYSTEM DIAGNOSTICS REPORT - 2026-01-31 03:25:11 ===
+Environment: Production-Cluster-A4
+Subsystem: Kernel-Virtual-Bridge
+Status: CRITICAL_ERROR_DETECTED
+
+[0.0012] Initializing memory parity check...
+[0.0145] ERROR: Failed to allocate bridge-subsystem-id 0x4421
+[0.0146] DUMPING STACK FRAME AT ADDR 0xFF02A11B:
+[DEBUG] TRACE_ID_START
+0x0000: 49 43 44 ad f9 f7 ae 03 43 cb 66 65 c7 5a 3c 68
+0x0010: 6e 41 8f e3 70 7b 23 eb a8 33 bf 9f eb 53 a1 ce
+0x0020: fc 23 97 6f e0 65 aa e3 ae 09 60 f3 16 c1 0e 7d
+0x0030: 7c 3e 7b d1 49 86 dc a4 2c 4b 92 0b 8f 8a 8d be
+0x0040: 68 09 55 06 3c 7c 13 09
+[DEBUG] TRACE_ID_END
+
+[0.0521] systemd[1]: Segfault at memory address 0x3d64bea7
+[0.0522] KERNEL_PANIC: Manual intervention required.
+[WARN]  Check secondary master_node_id: [MontSec_0ed98de8]
+[0.0523] System halting in 5 seconds...
+=== END DIAGNOSTIC REPORT ===
+========================================
