@@ -30,16 +30,13 @@ Status: CRITICAL_ERROR_DETECTED
 [0.0145] ERROR: Failed to allocate bridge-subsystem-id 0x4421
 [0.0146] DUMPING STACK FRAME AT ADDR 0xFF02A11B:
 [DEBUG] TRACE_ID_START
-0x0000: 49 43 44 ad f9 f7 ae 03 43 cb 66 65 c7 5a 3c 68
-0x0010: 6e 41 8f e3 70 7b 23 eb a8 33 bf 9f eb 53 a1 ce
-0x0020: fc 23 97 6f e0 65 aa e3 ae 09 60 f3 16 c1 0e 7d
-0x0030: 7c 3e 7b d1 49 86 dc a4 2c 4b 92 0b 8f 8a 8d be
-0x0040: 68 09 55 06 3c 7c 13 09
+ee e7 54 4a 31 06 ce 39 d5 39 48 b3 5b b2 09 b7 98 77 0b 6e 57 c5 23 6f 86 a2 ee c3 fa 45 ed 3f c6 37 72 83 c2 af 22 3c 2a 62 0b bd f0 59 75 cb 9f ca 86 32 da 63 ac c0 e1 9a 
+0c f0 38 b6 98 d8 c4 c5 7e 69 97 bf 8f ca
 [DEBUG] TRACE_ID_END
 
 [0.0521] systemd[1]: Segfault at memory address 0x3d64bea7
 [0.0522] KERNEL_PANIC: Manual intervention required.
-[WARN]  Check secondary master_node_id: [MontSec_0ed98de8]
+[WARN]  Check secondary master_node_id: [MontSec_e9428575]
 [0.0523] System halting in 5 seconds...
 === END DIAGNOSTIC REPORT ===
 ========================================
