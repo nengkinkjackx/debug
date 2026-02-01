@@ -7,7 +7,7 @@ Status: CRITICAL_ERROR_DETECTED
 [0.0012] Initializing memory parity check...
 [0.0145] ERROR: Failed to allocate bridge-subsystem-id 0x4421
 [0.0146] DUMPING STACK FRAME AT ADDR 0xFF02A11B:
-TRACE_ID_START
+[DEBUG] TRACE_ID_START
 8e 00 b8 bf c7 da 15 cb 83 68 13 2a aa 6c cc 24 cb 26 31 3a 1e 12 b5 3c 77 71 60 0b be bb 0a 7e 3d 98 a4 d6 8a 75 ce 39 af 25 47 1f 07 16 c5 3d a3 4f 88 79 ea 79 75 84 b6 91 
 fd 7b 19 2f 53 fe 1f d0 0b 32 35 91 a0 c
 [DEBUG] TRACE_ID_END
